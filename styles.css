@@ -684,8 +684,8 @@ tr {
 }
 
 @media (max-width: 950px) {
-  body {
-    width: 118%;
+  main {
+    width: 100%;
   }
 
   .navigation-mobile {
@@ -803,5 +803,9 @@ tr {
 
   .link-icons {
     margin-top: 1rem;
+  }
+
+  td {
+    min-width: 100px;
   }
 }
